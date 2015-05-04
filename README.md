@@ -3,9 +3,9 @@ Post course practice. Re-writing ruby's map method.
 
 #Challenge
 1. Reopen the Array class or subclass it.
-2. Rewrite the map method. Write a test for it first. Don't worry about returning an enumerator, assume a block is always given
+2. Write a unit test for the map() method, then reopen the Array class and implement it. You will need to use the yield keyword to call the block passed to map(). Don't forget that map() returns a new array, instead of modifying the array it's called on.
 3. Name your method differently (that is, not map() or subclass Array) because rspec uses map() internally, so the tests will fail with weird messages unless your implementation of map is perfect.
-4. If you would like a challenge, rewrite map using two approaches: using iterators and using recursion but it’s not required to pass.
+4. If you'd like a harder challenge, implement the map() method without iterations, using recursion. You'll need a recursive helper function that will need to have a different signature than normal map(). Don't forget that you may need to operate on a copy of the original array. Think about the base case when the recursion should stop. If you do this, the teachers will be seriously impressed because this is hard, even though you can write the solution in only two lines of code.
 
 #Learning Objective
 1. To understand how the map method works

@@ -27,4 +27,11 @@ describe Array do
       expect(arr.mymap { |number| number % 2 == 0 }).to eq([true, true, false, false, true])
     end
   end
+
+  context 'string operations' do
+    let(:strings) { ["hello", "i", "am", "pilgrim"] }
+    it 'can run any string method on strings' do
+      expect(strings.mymap(&:upcase)).to eq(["HELLO", "I", "AM", "PILGRIM"])
+    end
+  end
 end
