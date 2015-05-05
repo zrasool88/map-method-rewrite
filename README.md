@@ -1,4 +1,4 @@
-[![Code Climate](https://codeclimate.com/github/zrasool88/map-method-rewrite/badges/gpa.svg)](https://codeclimate.com/github/zrasool88/map-method-rewrite)  [![Test Coverage](https://codeclimate.com/github/zrasool88/map-method-rewrite/badges/coverage.svg)](https://codeclimate.com/github/zrasool88/map-method-rewrite) [![Dependency Status](https://gemnasium.com/zrasool88/map-method-rewrite.svg)](https://gemnasium.com/zrasool88/map-method-rewrite) 
+[![Code Climate](https://codeclimate.com/github/zrasool88/map-method-rewrite/badges/gpa.svg)](https://codeclimate.com/github/zrasool88/map-method-rewrite)  [![Test Coverage](https://codeclimate.com/github/zrasool88/map-method-rewrite/badges/coverage.svg)](https://codeclimate.com/github/zrasool88/map-method-rewrite) [![Dependency Status](https://gemnasium.com/zrasool88/map-method-rewrite.svg)](https://gemnasium.com/zrasool88/map-method-rewrite) [![Build Status](https://travis-ci.org/zrasool88/map-method-rewrite.svg?branch=master)](https://travis-ci.org/zrasool88/map-method-rewrite)
 
 #Description
 Post course practice. Re-writing ruby's map method.
