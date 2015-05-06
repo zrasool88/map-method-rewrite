@@ -7,19 +7,27 @@ describe Array do
   context 'recursive map function' do
     context 'arithmetic operations' do
       it 'can run addition on numbers' do
-        expect(arr.mymap_recursive { |number| number + 2 }).to eq([4, 4, 7, 7, 12])
+        expect(arr.mymap_recursive do |number|
+          number + 2
+        end).to eq([4, 4, 7, 7, 12])
       end
 
       it 'can run subtraction on numbers' do
-        expect(arr.mymap_recursive { |number| number - 2 }).to eq([0, 0, 3, 3, 8])
+        expect(arr.mymap_recursive do |number|
+          number - 2
+        end).to eq([0, 0, 3, 3, 8])
       end
 
       it 'can run multiplication on numbers' do
-        expect(arr.mymap_recursive { |number| number * 2 }).to eq([4, 4, 10, 10, 20])
+        expect(arr.mymap_recursive do |number|
+          number * 2
+        end).to eq([4, 4, 10, 10, 20])
       end
 
       it 'can run division on numbers' do
-        expect(arr.mymap_recursive { |number| number / 2 }).to eq([1, 1, 2, 2, 5])
+        expect(arr.mymap_recursive do |number|
+          number / 2
+        end).to eq([1, 1, 2, 2, 5])
       end
     end
 
